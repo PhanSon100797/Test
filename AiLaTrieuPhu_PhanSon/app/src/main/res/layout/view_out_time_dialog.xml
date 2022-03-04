@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_70"
+        android:background="#072765"
+        android:padding="20dp"
+        android:text="@string/message_ready"
+        android:textColor="@color/colorWhile"
+        android:textSize="@dimen/d_20"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050539"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/d_30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/d_30"
+            android:layout_marginTop="@dimen/d_20"
+            android:gravity="center"
+            android:text="@string/out_time"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/d_20"
+            android:layout_marginTop="@dimen/d_20"
+            android:layout_marginEnd="@dimen/d_20"
+            android:background="@color/colorOrangeBlack"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Đóng"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_18"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+    </LinearLayout>
+</LinearLayout>

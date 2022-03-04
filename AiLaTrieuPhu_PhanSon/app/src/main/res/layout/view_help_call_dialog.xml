@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/d_20"
+    android:paddingEnd="@dimen/d_20"
+    android:background="@color/colorTransparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d_30"
+        android:background="@drawable/player_layout_help_call_audience_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableRow
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_marginEnd="@dimen/d_30"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_help_call1"
+                android:layout_width="@dimen/d_80"
+                android:layout_height="@dimen/d_80"
+                android:src="@drawable/bg_state_help_call1" />
+                <TextView
+                    android:text="Bác sĩ"
+                    android:textColor="@color/colorWhile"
+                    android:textSize="@dimen/d_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_state_help_call1" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_help_call2"
+                android:layout_width="@dimen/d_80"
+                android:layout_height="@dimen/d_80"
+                android:src="@drawable/bg_state_help_call2" />
+                <TextView
+                    android:text="Giáo sư"
+                    android:textColor="@color/colorWhile"
+                    android:textSize="@dimen/d_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_state_help_call1" />
+            </LinearLayout>
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="@dimen/d_50"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_marginEnd="@dimen/d_30"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_help_call3"
+                android:layout_width="@dimen/d_80"
+                android:layout_height="@dimen/d_80"
+                android:src="@drawable/bg_state_help_call3" />
+                <TextView
+                    android:text="Kỹ sư"
+                    android:textColor="@color/colorWhile"
+                    android:textSize="@dimen/d_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_state_help_call1" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_help_call4"
+                android:layout_width="@dimen/d_80"
+                android:layout_height="@dimen/d_80"
+                android:src="@drawable/bg_state_help_call4" />
+                <TextView
+                    android:text="Phóng viên"
+                    android:textColor="@color/colorWhile"
+                    android:textSize="@dimen/d_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_state_help_call1" />
+            </LinearLayout>
+
+
+
+        </TableRow>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:background="@drawable/bg_layout_help_call_title_background"
+        android:gravity="center"
+        android:text="Ý kiến chuyên gia"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/d_15"
+        android:textStyle="bold" />
+</FrameLayout>

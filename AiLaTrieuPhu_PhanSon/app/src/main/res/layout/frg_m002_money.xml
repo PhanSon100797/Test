@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/player_money_background" />
+
+    <LinearLayout
+        android:id="@+id/ln_milestone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="@dimen/d_30">
+
+        <TextView
+            android:id="@+id/tv_150_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_money_milestone"
+            android:gravity="center"
+            android:text="@string/million_150"
+            android:textColor="@color/colorOrange"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_85_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_85"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_60_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_60"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_40_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_40"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_30_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_30"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_22_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_money_milestone"
+            android:gravity="center"
+            android:text="@string/million_22"
+            android:textColor="@color/colorYellow"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_14_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_14"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_10_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_10"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_6_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_6"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_3_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_3"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_2_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_money_milestone"
+            android:gravity="center"
+            android:text="@string/million_2"
+            android:textColor="@color/colorGreen"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_1_million"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/million_1"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_6_hundred_thousand"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/hundred_thousand_6"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_4_hundred_thousand"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/hundred_thousand_4"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_2_hundred_thousand"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d_10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/hundred_thousand_2"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/d_20"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bt_hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/d_10"
+        android:layout_marginBottom="@dimen/d_10"
+        android:background="@drawable/bg_circle_hide"
+        android:padding="@dimen/d_10"
+        android:text="Hide"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/d_20"
+        android:textStyle="italic"
+        tools:ignore="SpUsage" />
+
+</FrameLayout>

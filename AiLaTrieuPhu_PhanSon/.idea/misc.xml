@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/frg_m001_menu.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/frg_m002_money.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/frg_m003_player.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/notice_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_current_question_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_help_audience_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_help_call_answer_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_help_call_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_high_score_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_infor_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_out_time_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_ready.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_setting_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AiLaTrieuPhu_PhanSon/app/src/main/res/layout/view_stop_play_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_answer.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_circle.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_circle_hide.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_help_audience.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_loading.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_loading_time.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_oval.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_radius_orange.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_radius_tangle.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/bg_state_help_call1.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/btn_5050_bg.xml" value="0.1046875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/btn_answer.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/btn_audience_bg.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/btn_hide_bg.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/drawable/progressbar_time.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/activity_main.xml" value="0.178125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/fragment_home.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/frg_m001_menu.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/frg_m002_money.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/frg_m003_player.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/notice_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_current_question_dialog.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_help_audience_dialog.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_help_call_answer_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_help_call_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_infor_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_out_time_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_ready.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_setting_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/layout/view_stop_play_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TEST12/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.20833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#ff210030"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/pg_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progressbar_time" />
+
+        <ImageView
+            android:id="@+id/iv_user"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_no_avatar" />
+
+        <ImageView
+            android:id="@+id/iv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_toStartOf="@id/tv_money_play"
+            android:src="@drawable/ic_money" />
+
+        <TextView
+            android:id="@+id/tv_money_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:text="150,000,000"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:layout_marginHorizontal="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_stop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_help_stop"/>
+
+        <ImageView
+            android:id="@+id/iv_change_question"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:src="@drawable/bg_iv_swap_question" />
+
+        <ImageView
+            android:id="@+id/iv_help_5050"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:src="@drawable/bg_help_50_50" />
+
+        <ImageView
+            android:id="@+id/iv_help_audience"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+           android:src="@drawable/bg_iv_help_audience" />
+
+        <ImageView
+            android:id="@+id/iv_help_call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:src="@drawable/bg_help_call" />
+    </TableRow>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/d10"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:background="@drawable/player_question_background"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Hôm nay là thứ mấy ?"
+            android:textColor="@android:color/holo_orange_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="@dimen/d_40"
+            android:background="@drawable/bg_order_question"
+            android:text="Cau 1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:textStyle="bold"
+            android:id="@+id/tv_questionNumber"
+            android:textColor="#9C27B0"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="4"
+        android:gravity="center"
+        android:padding="@dimen/d_15"
+        android:paddingHorizontal="@dimen/d_10"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+        <TextView
+            android:id="@+id/tv_answerA"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer"
+            android:gravity="center_vertical"
+            android:paddingStart="58dp"
+            android:text="A: Thứ hai"
+            android:textColor="#ffffff"
+            tools:ignore="NestedWeights,RtlSymmetry" />
+        <TextView
+            android:id="@+id/tv_answerB"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer"
+            android:gravity="center_vertical"
+            android:paddingStart="58dp"
+            android:text="B: Thứ sáu"
+            android:textColor="#ffffff"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_answerC"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer"
+            android:gravity="center_vertical"
+            android:paddingStart="58dp"
+            android:text="C: Thứ tư"
+            android:textColor="#ffffff"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_answerD"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer"
+            android:gravity="center_vertical"
+            android:paddingStart="58dp"
+            android:text="D: Thứ ba"
+            android:textColor="#ffffff"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+</LinearLayout>

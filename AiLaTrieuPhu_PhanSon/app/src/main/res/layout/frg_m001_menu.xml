@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ln_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RedundantNamespace">
+
+        <ImageView
+            android:id="@+id/iv_rote_menu"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_circle_anim" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/icon_logo_app" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_play"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/home_button_play" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20sp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_infor"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_infor" />
+
+        <ImageView
+            android:id="@+id/iv_cup"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_cup" />
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_setting" />
+
+    </TableRow>
+</LinearLayout>

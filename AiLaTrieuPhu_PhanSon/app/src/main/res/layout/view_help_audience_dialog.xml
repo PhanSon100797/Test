@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/d_30"
+    android:paddingEnd="@dimen/d_30">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/player_layout_help_call_audience_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/d_30">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_progress_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFEB3B"
+                android:textSize="@dimen/d_18"
+                tools:ignore="SpUsage" />
+
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progress_1"
+                android:layout_width="50sp"
+                android:layout_height="250sp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="@dimen/d_10"
+                app:progressView_animation="normal"
+                app:progressView_colorBackground="#034B85"
+                app:progressView_colorProgress="@color/colorAccent"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textColor="#FFEB3B"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_progress_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFEB3B"
+                android:textSize="@dimen/d_18"
+                tools:ignore="SpUsage" />
+
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progress_2"
+                android:layout_width="50sp"
+                android:layout_height="250sp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="@dimen/d_10"
+                app:progressView_animation="normal"
+                app:progressView_colorBackground="#034B85"
+                app:progressView_colorProgress="@color/colorAccent"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textColor="#FFEB3B"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_progress_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFEB3B"
+                android:textSize="@dimen/d_18"
+                tools:ignore="SpUsage" />
+
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progress_3"
+                android:layout_width="50sp"
+                android:layout_height="250sp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="@dimen/d_10"
+                app:progressView_animation="normal"
+                app:progressView_colorBackground="#034B85"
+                app:progressView_colorProgress="@color/colorAccent"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textColor="#FFEB3B"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_progress_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFEB3B"
+                android:textSize="@dimen/d_18"
+                tools:ignore="SpUsage" />
+
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progress_4"
+                android:layout_width="50sp"
+                android:layout_height="250sp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="@dimen/d_10"
+                app:progressView_animation="normal"
+                app:progressView_colorBackground="#034B85"
+                app:progressView_colorProgress="@color/colorAccent"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#FFEB3B"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:background="@drawable/bg_layout_help_call_title_background"
+        android:gravity="center"
+        android:padding="@dimen/d_10"
+        android:text="Ý kiến khán giả"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/d_15"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/tv_close_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/bg_confirm_background_button"
+        android:gravity="center"
+        android:text="Đóng"
+        android:textColor="@color/colorWhile"
+        android:textSize="@dimen/d_15"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+</FrameLayout>

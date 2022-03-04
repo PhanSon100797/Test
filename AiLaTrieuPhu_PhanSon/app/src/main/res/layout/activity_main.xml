@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_background"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <View
+            android:id="@+id/bg_circle_anim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_circle_anim" />
+
+    </FrameLayout>
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:indeterminate="true"
+        android:indeterminateBehavior="cycle"
+        android:indeterminateDrawable="@drawable/bg_loading"
+        android:indeterminateDuration="5000"
+        android:padding="20dp" />
+</FrameLayout>
